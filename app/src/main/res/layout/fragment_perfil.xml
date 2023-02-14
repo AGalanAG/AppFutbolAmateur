@@ -1,0 +1,147 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.firebase.Perfil">
+
+    <LinearLayout
+        android:id="@+id/Noticias"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:id="@+id/imagen1"
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:src="@drawable/ic_perfil"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="6dp" />
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp"
+    android:layout_marginLeft="50dp">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtnombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alan"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtnumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnNumero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtGoles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goles"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnGoles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtfaltas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faltas"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnFaltas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtTarjetaR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjetas Rojas"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnTarjetaR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtTarjetaA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjetas Amarillas"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/txtnTarjetaA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/bg_register"
+            android:textSize="20sp" />
+    </TableRow>
+</TableLayout>
+
+    </LinearLayout>
+</FrameLayout>

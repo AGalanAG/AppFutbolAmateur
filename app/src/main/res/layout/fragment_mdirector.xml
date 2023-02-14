@@ -1,0 +1,215 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.firebase.MDirector">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/Arbitraje"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ARBITRAJE"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#3b4148"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp">
+
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador1"
+                    android:text="JUGADOR 1"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador1"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="80dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador2"
+                    android:text="JUGADOR 2"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador2"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador3"
+                    android:text="JUGADOR 3"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador3"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador4"
+                    android:text="JUGADOR 4"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador4"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador5"
+                    android:text="JUGADOR 5"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador5"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador6"
+                    android:text="JUGADOR 6"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador6"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador7"
+                    android:text="JUGADOR 7"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador7"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador8"
+                    android:text="JUGADOR 8"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador8"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador9"
+                    android:text="JUGADOR 9"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador9"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador10"
+                    android:text="JUGADOR 10"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador10"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txtJugador11"
+                    android:text="JUGADOR 11"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:textSize="30dp"
+                    android:layout_marginRight="20dp"/>
+
+                <EditText
+                    android:id="@+id/txtnJugador11"
+                    android:text=""
+                    android:layout_height="wrap_content"
+                    android:layout_width="40dp"
+                    android:numeric="integer"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+</ScrollView>
+</FrameLayout>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Chivas Izcalli</string>
+    <string name="action_sign_in_short">Registrar</string>
+    <string name="email">Correo</string>
+    <string name="minimum_password">Contraseña demasiado corta, minimo 6 caracteres</string>
+    <string name="auth_failed">Autenticacion fallida </string>
+    <string name="change_email">Cambiar Correo</string>
+    <string name="change_password">Cambiar Contraseña</string>
+    <string name="send_password_reset_email">Enviar correo, restablecer contraseña</string>
+    <string name="remove_user">Eliminar usuario</string>
+    <string name="new_pass">Nueva Contraseña</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Iniciar sesion</string>
+    <string name="hint_email">Correo</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_name">Nombre Completo</string>
+    <string name="btn_login">Iniciar</string>
+    <string name="btn_link_to_register">¿Aun no estas tienes cuenta? Registrate</string>
+    <string name="btn_link_to_login">Ya estoy Registrado</string>
+    <string name="title_activity_reset_password">Reiniciar Contraseña</string>
+    <string name="btn_forgot_password">No recuerdas tu contraseña?</string>
+    <string name="btn_reset_password">Restablecer contraseña</string>
+    <string name="btn_back"><![CDATA[<< Regresar]]></string>
+    <string name="hint_new_email">Nuevo correo</string>
+    <string name="btn_change">Cambiar</string>
+    <string name="btn_send">Enviar</string>
+    <string name="btn_remove">Eliminar</string>
+    <string name="btn_sign_out">Salir</string>
+    <string name="lbl_forgot_password">¿No recuerdas tu contraseña?</string>
+    <string name="forgot_password_msg">Necesitas ingresar el correo de tu registro para mandarte un correo con las instrucciones  </string>
+    <string name="title_activity_inicio">Inicio</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_contenido">Contenido</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="partido_anterior">PARTIDO ANTERIOR</string>
+</resources>

@@ -1,0 +1,710 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.firebase.Estadisticas">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/ColumnaEquipo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#43A047">
+
+            <TextView
+                android:id="@+id/ColumnaPosicion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="POSICION"
+                android:textColor="#005500"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/ColumnaEquipos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="EQUIPO"
+                android:textColor="#005500"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/ColumnaPuntos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="5px"
+                android:text="Puntos"
+                android:textColor="#005500"
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:id="@+id/ColumnaPG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5px"
+                android:text="PARTIDOS G"
+                android:textColor="#005500"
+                android:textSize="15sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/SeparadorCabecera"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <FrameLayout
+                android:id="@+id/LineaCabecera"
+                android:layout_width="fill_parent"
+                android:layout_height="2px"
+                android:layout_span="6"
+                android:background="#FFFFFF" >
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="1"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival1"
+                android:layout_width="22dp"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="París"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="2"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Montreal"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="3"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Barcelona"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/Fila4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="4"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Londres"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="22dp" >
+
+            <TextView
+                android:id="@+id/PChivas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/EChivas5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Chivas Izcali"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ChivasP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/PGChivas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="6"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Manchester"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="7"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Liverpool"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#43A047"
+                android:gravity="center"
+                android:text="8"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="Sevilla"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#DCEDC8"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#BDBDBD"
+                android:gravity="center"
+                android:text="9"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="Monaco"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila10"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#BDBDBD"
+                android:gravity="center"
+                android:text="10"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="Munich"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#BDBDBD"
+                android:gravity="center"
+                android:text="11"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="Queretaro"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#BDBDBD"
+                android:gravity="center"
+                android:text="12"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="Monterrey"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ECEFF1"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:text="13"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="Valencia"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:text="14"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="Milan"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/Fila15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/PERival15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#B71C1C"
+                android:gravity="center"
+                android:text="15"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ERival15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="Juventus"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalP15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="50"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/RivalPG15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFCDD2"
+                android:gravity="center"
+                android:text="5"
+                android:textSize="20sp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

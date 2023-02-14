@@ -1,0 +1,109 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="info.androidhive.firebase.Historia">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/Historia"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/Titulo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HISTORIA"
+                android:textAlignment="center"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <ImageView
+                android:id="@+id/imagen1"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:src="@drawable/chivas"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/noticia1"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:lineSpacingExtra="0.5dp"
+                android:text="Jesús Martínez, propietario de Grupo Pachuca, reveló que los dueños de los equipos de Primera División “estamos abiertos a las negociaciones” con la Asociación Mexicana de Futbolistas que busca que se erradique el ‘Pacto de Caballeros’ de manera próxima.
+                \n El dueño de los Tuzos destacó que lo más importante es ver por el beneficio del futbol mexicano y por ello están dispuestos a negociar con los jugadores que intentan tener mejores condiciones en un futuro inmediato. “Hemos avanzado en muchos aspectos, los jugadores tienen cada vez más cosas ganadas y estamos abiertos a las negociaciones para que el futbol mexicano crezca y estamos para construir”, señaló en las instalaciones de la Federación Mexicana de Futbol."
+                android:layout_marginBottom="10dp"
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="195dp" />
+            <TextView
+                android:id="@+id/Titulo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="El Barça puede ganar el doblete esta semana"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <ImageView
+                android:id="@+id/imagen2"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:src="@drawable/barca"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/noticia2"
+                android:layout_width="match_parent"
+                android:layout_height="303dp"
+                android:text="El equipo de Valverde precisa 7 puntos para cantar el alirón siempre que el Atlético sume de tres en tres, pero los dos próximos encuentros de los colchoneros son especialmente incómodos: el jueves visita en Anoeta, un estadio en el que ha perdido 5 de sus últimas 7 visitas liguras, a una Real Sociedad que ha encadenado 7 puntos con dos victorias consecutivas y tras el cambio de entrenador se ha catapultado; el domingo recibe en el Metropolitano a un Betis que, instalado en puestos europeos, disfruta de su mejor racha de la temporada y lleva enlazados 5 triunfos.
+
+\n  \n Si el Atlético no es capaz de sumar al menos una victoria en estos dos encuentros, 3 puntos, y el Barça vence este martes en Balaídos, el domingo, un día después de disputar la final de Copa, podría ser virtual campeón ya que el conjunto de Simeone quedaría, como poco, 12 puntos por detrás a falta de 4 jornadas (5 para el Barça por el aplazamiento de su duelo ante el Villarreal) y teniendo a favor el goal-average particular sería inalcanzable."
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="195dp" />
+            <TextView
+                android:id="@+id/Titulo3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Un título internacional, cuenta pendiente de Chivas"
+                android:textAllCaps="true"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <ImageView
+                android:id="@+id/imagen3"
+                android:layout_width="match_parent"
+                android:layout_height="154dp"
+                android:src="@drawable/im_equipo" />
+
+            <TextView
+                android:id="@+id/noticia3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Un título internacional es un pendiente que tiene Chivas. En toda su historia ha llegado a cinco finales en torneos fuera del futbol mexicano, pero solo ha podido coronarse en una ocasión.
+\n\n
+       Ahora ante Toronto tiene la oportunidad de ganar la Liga de Campeones de la Concacaf, campeonato que los instalaría en el próximo Mundial de Clubes.
+
+\n\n
+        En 1962 el Rebaño se impuso 6-0 en el global ante el Comunicaciones de Guatemala y un año más tarde volvió a llegar a la instancia final, pero un problema de logística impidió que el partido se celebrará y la Concacaf terminó por darle el campeonato a Racing Club Haiten."
+                tools:layout_editor_absoluteX="24dp"
+                tools:layout_editor_absoluteY="195dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

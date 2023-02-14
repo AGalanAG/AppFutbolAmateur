@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/ic_inicio"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/Noticias"
+            android:icon="@drawable/ic_noticias"
+            android:title="Noticias" />
+        <item
+            android:id="@+id/Estadisticas"
+            android:icon="@drawable/ic_estadisticas"
+            android:title="Estadisticas" />
+
+        <item
+            android:id="@+id/Historia"
+            android:icon="@drawable/ic_historia"
+            android:title="Historia" />
+        <item
+            android:id="@+id/Mi_perfil"
+            android:icon="@drawable/ic_perfil"
+            android:title="Mi perfil" />
+        <item
+            android:id="@+id/Modo_director"
+            android:icon="@drawable/ic_director"
+            android:title="Modo Director" />
+
+    </group>
+
+
+</menu>
